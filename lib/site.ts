@@ -2,7 +2,7 @@ export const siteName = "house of sanctuary";
 
 export const navItems = [
   { href: "/about", label: "ABOUT" },
-  { href: "/work", label: "WORK" },
+  { href: "/work", label: "STUDIO WORK" },
   { href: "/writing", label: "WRITING" },
 ] as const;
 

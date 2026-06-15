@@ -80,7 +80,7 @@ export function SiteHeader({ user }: { user: SessionUser | null }) {
                     </li>
                     <li>
                       <span className="site-nav__action site-nav__action--disabled" title="Coming soon">
-                        + Work
+                        + Studio Work
                       </span>
                     </li>
                     <li className="site-nav__user">

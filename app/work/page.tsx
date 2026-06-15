@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work",
+  title: "Studio Work",
 };
 
 export default function WorksPage() {
