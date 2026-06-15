@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 
 export default function WorksPage() {
   return (
-    <div>
+    <div className="prose-content">
       <h1>Nothing to show here</h1>
     </div>
   );
