@@ -404,7 +404,7 @@ body {
 
 .manage-writing__actions {
   white-space: nowrap;
-  text-align: right;
+  text-align: right !important;
 }
 
 .manage-writing__action {
@@ -487,7 +487,7 @@ body {
 .writing-post__body hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 .writing-post__body img { max-width: 100%; height: auto; margin: 1rem 0; }
 .writing-post__body [style*="text-align: center"] { text-align: center; }
-.writing-post__body [style*="text-align: right"] { text-align: right; }
+.writing-post__body [style*="text-align: right"] { text-align: right !important; }
 
 .writing-back {
   font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
@@ -681,4 +681,16 @@ body {
 .writing-page__new-btn:hover {
   color: var(--foreground);
   border-bottom-color: var(--foreground);
+}
+
+/* ── About page ── */
+
+.about-content p {
+  margin: 1.75rem 0;
+}
+
+.about-sig {
+  text-align: right !important;
+  color: var(--muted);
+  margin-top: 3rem !important;
 }
