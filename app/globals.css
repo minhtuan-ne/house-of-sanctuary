@@ -165,12 +165,13 @@ body {
 
 .prose-content {
   font-family: var(--font-playfair), Georgia, "Times New Roman", serif;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  padding: 0 1.5rem;
 }
 
 .prose-content p {
-  margin: 0.875rem 0;
+  margin: 1.1rem 0;
 }
 
 .prose-content h1 {
