@@ -200,6 +200,43 @@ body {
   font-style: normal;
 }
 
+@keyframes skeleton-shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton-pulse {
+  background: linear-gradient(90deg, #ececec 25%, #f5f5f5 50%, #ececec 75%);
+  background-size: 800px 100%;
+  animation: skeleton-shimmer 1.4s ease infinite;
+  border-radius: 3px;
+}
+
+.writing-card-skeleton__media {
+  aspect-ratio: 16 / 10;
+  margin-bottom: 1rem;
+}
+
+.writing-card-skeleton__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.writing-card-skeleton__title {
+  height: 1.125rem;
+  width: 70%;
+}
+
+.writing-card-skeleton__line {
+  height: 0.875rem;
+  width: 100%;
+}
+
+.writing-card-skeleton__line--short {
+  width: 55%;
+}
+
 .writing-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
