@@ -6,44 +6,22 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <article className="page-content prose-content">
-      <p className="text-center">Ho Chi Minh City, Vietnam.</p>
+    <article className="page-content prose-content about-content">
       <p className="text-center">
-        <a href="mailto:hello@example.com">hello@example.com</a>
+        <strong>家: [</strong>danh từ<strong>] 'ngôi nhà' trong tiếng Nhật.</strong><br />
+        <strong>• いえ - 'nhà' theo nghĩa Kiến trúc, không gian sống</strong><br />
+        <strong>• うち - 'nhà' của riêng tôi</strong><br />
+        「うちへ帰ります」 - 'Tôi về Nhà đây.'
       </p>
-
-      <p className="text-center italic">
-        Good books are written in a kind of foreign language
-        <span className="not-italic"> — Marcel Proust.</span>
-      </p>
-
-      <p>
-        A personal space for writing, translation, and reflection on
-        architecture, culture, and the everyday. Work here moves between
-        languages and disciplines — notes from the studio, reading lists,
-        field observations, and drafts in progress.
-      </p>
-
-      <p>
-        #Phuong Blog: a place to collect essays, translations, and fragments
-        that do not fit elsewhere.
-      </p>
-
-      <p>
-        #Topics: architecture and art; space and territory; translation and
-        reading; workshops and conversations.
-      </p>
-
-      <p>
-        #Currently: building this site, gathering notes, and publishing in
-        small pieces.
-      </p>
-
-      <p className="text-center divider">——</p>
 
       <p className="text-center">
-        blog • a place for leisure, lecture, disputation, discussion.
+        archives, thoughts and notes on architecture, studio works, literature/poems,
+        linguistics, and history, with occasional detours into film and music.
       </p>
+
+      <p className="text-center">cảm ơn vì đã ghé chơi.</p>
+
+      <p className="about-sig">- claire -</p>
     </article>
   );
 }
