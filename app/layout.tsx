@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     template: `%s – ${siteName}`,
   },
   description: "Writing, translation, and notes.",
+  icons: {
+    icon: '/icon.jpg',
+  },
 };
 
 export default async function RootLayout({
